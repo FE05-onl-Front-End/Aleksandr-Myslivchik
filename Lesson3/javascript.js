@@ -6,7 +6,7 @@ function makeTree(n) {
 
     for(;i<n;i++) {
 
-        
+
         if(i == 0) {
             obj[i] = value;
         } else {
@@ -15,11 +15,12 @@ function makeTree(n) {
 
 
         console.log(obj[i]);
-    } 
 
+    } 
+i--;
     for(;;i--) {
         console.log(obj[i]);
-        
+
         if(i == 0) break;
     }
 
