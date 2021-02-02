@@ -1,0 +1,25 @@
+div {
+    max-width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+}
+.startButton {
+    display: block;
+    margin: auto;
+    padding: 50px 200px;
+    background-color: rgb(107, 202, 84);
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    transition: .4s ease;
+    
+
+}
+.startButton:hover {
+
+    background-color:rgb(89, 168, 70);
+    transform: scale(1.1);
+
+}
