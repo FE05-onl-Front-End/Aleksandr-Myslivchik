@@ -1,13 +1,22 @@
 function setNumbers(end) {
     let out = [];
     return function (start) {
-        for (let i = start; i <= end; i++) {
-
-            if (out.indexOf(i) === -1) {
-                out.push(i);
+        let n = start;
+        while (out.length < end) {
+            if (out.includes(n) === false) {
+                out.push(n);
             }
+            n = Math.round((start + Math.random() * (end - start)))
         }
-        return console.log(out);
+        return out.sort((a, b) => a - b);
     }
 }
-let countToHundred = setNumbers(100);
+
+
+let countToTen = setNumbers(10);
+countToTen(1)
+
+
+
+
+
