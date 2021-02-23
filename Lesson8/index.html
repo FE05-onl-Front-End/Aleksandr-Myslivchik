@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomeWork8</title>
+</head>
+
+<body>
+
+    <section class="main-wrapper">
+        <div class="paint-wrapper">
+            <form action="" class="select-figure">
+                <select id="select" value=''>
+                    <option value="choose-figure" selected>Выбрать форму</option>
+                    <option value="triangle" data-set='true'>Треугольник</option>
+                    <option value="ellipse" name='set'>Овал</option>
+                    <option value="circle" name='set'>Круг</option>
+                    <option value="rectangle" name='set'>Прямоугольник</option>
+                    <option value="square" name='set'>Квадрат</option>
+                </select>
+                <button id='clear' onclick="event.preventDefault()">clear color</button>
+
+            </form>
+            <div class="paint-ouput-block">
+                <div class="paint-output-element">
+                    <div id="triangle" hidden>
+                        <div id="triangle2"></div>
+                    </div>
+                    <div id="ellipse" hidden></div>
+                    <div id="circle" hidden></div>
+                    <div id="rectangle" hidden></div>
+                    <div id="square" hidden></div>
+                </div>
+            </div>
+            <div class="paint-input-block">
+                <div class="paint-set-color_gold color" data-color='gold'></div>
+                <div class="paint-set-color_red color" data-color='red'></div>
+                <div class="paint-set-color_orange color" data-color='orange'></div>
+                <div class="paint-set-color_yellow color" data-color='yellow'></div>
+                <div class="paint-set-color_green color" data-color='green'></div>
+                <div class="paint-set-color_light-blue color" data-color='lightblue'></div>
+                <div class="paint-set-color_blue color" data-color='blue'></div>
+                <div class="paint-set-color_purple color" data-color='purple'></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
