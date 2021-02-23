@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.paint-wrapper {
+    margin: auto;
+    width: 1170px;
+    padding: 0 15px;
+    height: 500px;
+    /* border: 1px solid rgb(209, 81, 81); */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.select-figure {}
+
+.paint-ouput-block {
+    /* border: 1px solid rgb(141, 141, 236); */
+    display: flex;
+}
+
+.paint-output-element {
+    margin: auto;
+  
+}
+
+
+
+/* Задаем формы */
+#triangle-wrapper {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+    width: 150px;
+
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+   border: 100px solid transparent;
+   border-bottom: 100px solid black;
+   position: relative;
+
+}
+
+
+#triangle2 {
+    width: 0;
+    height: 0;
+    border: 97px solid transparent;
+    border-bottom: 97px solid #ffffff;
+    position: absolute;
+    top: -96px;
+    right: -97px;
+}
+
+#ellipse {
+    width: 100px;
+    height: 200px;
+border: 1px solid black;   
+ border-radius: 50%;
+    background-color: transparent;
+}
+
+#circle {
+    width: 200px;
+    border: 1px solid black;   
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#rectangle {
+    width: 300px;
+    border: 1px solid black;   
+
+    height: 200px;
+    background-color: transparent;
+}
+
+#square {
+    width: 200px;
+    border: 1px solid black;   
+
+    height: 200px;
+    background-color: transparent;
+}
+
+
+
+
+
+/* ЗАДАЕМ ЦВЕТ БЛОК */
+
+
+.paint-input-block {
+    /* border: 1px solid rgb(141, 236, 199); */
+    display: flex;
+    justify-content: center;
+}
+
+.paint-set-color_gold {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+}
+
+.paint-set-color_red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_orange {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_yellow {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_light-blue {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+
+.paint-set-color_purple {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+
+}
